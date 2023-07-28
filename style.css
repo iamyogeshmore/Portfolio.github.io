@@ -477,3 +477,58 @@ p {
 h1, h2, h3 {
     margin-bottom: 10px; 
 }
+
+
+/* Existing CSS rules */
+
+/* ----------CSS FOR SMALL SCREEN---------- */
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url(images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+    }
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    /* Show the navigation menu on small screens */
+    nav ul {
+        display: none;
+        flex-direction: column; 
+        align-items: center; 
+        position: absolute; 
+        top: 60px; 
+        right: 0;
+        width: 100%;
+        background: #b54768;
+        padding: 20px;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+  
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .work-list {
+        grid-template-columns: 1fr;
+    }
+}
