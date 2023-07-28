@@ -465,3 +465,15 @@ nav .fas {
         margin: 25px;
     }
 }
+/* Apply the "Times New Roman" font to all paragraphs */
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 110%;
+    line-height: 2; /* Adjust the line height as needed, 1.6 means 1.6 times the font size */
+    margin-bottom: 10px; /* Adds spacing at the bottom of each paragraph */
+}
+
+/* Add spacing to the header elements */
+h1, h2, h3 {
+    margin-bottom: 10px; /* Adds spacing at the bottom of each header */
+}
